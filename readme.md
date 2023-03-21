@@ -8,6 +8,7 @@ Java<br>
 Javascript<br>
 PHP/SQL<br>
 HTML<br>
+C#<br>
 Python<br>
 Some others I probably forgot
 
