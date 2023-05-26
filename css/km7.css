@@ -1,0 +1,88 @@
+body {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #aaaaaa;
+  color: #ffffff;
+}
+
+.menubar {
+  font-size: 24px;
+  list-style-type: none;
+  width: 200px;
+  height: 100vh;
+  background-color: #3b3b3b;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  transition: left 0.3s ease;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  left: -7px;
+  cursor: pointer;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background-color: #3b3b3b;
+  transition: left 0.3s ease;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.menubar.open {
+  left: 0;
+}
+.menu-toggle.open {
+  left: 200px;
+}
+
+.menubar ul {
+  list-style-type: none;
+}
+
+.menubar li {
+  margin: 10px 0;
+}
