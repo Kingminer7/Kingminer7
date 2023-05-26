@@ -86,3 +86,7 @@ a:hover {
 .menubar li {
   margin: 10px 0;
 }
+
+.center {
+  text-align: center;
+}
