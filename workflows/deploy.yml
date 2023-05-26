@@ -3,7 +3,7 @@ name: Blazing fast GitHub Pages deploy
 on:
   push:
     branches:
-    - main
+    - site
 
 jobs:
   deploy:
