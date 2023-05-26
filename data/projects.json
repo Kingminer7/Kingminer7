@@ -1,0 +1,19 @@
+[{
+    "name": "Test",
+    "description": "A test project for the project loader.",
+    "full_page": "javascript:alert('This is a test prompt, nothing will happen.');",
+    "downloads": [
+        {
+            "name": "Main Download",
+            "url": "javascript:alert('This is a test prompt, nothing will happen.');"
+        },
+        {
+            "name": "Fake Download",
+            "url": "javascript:alert('This is a test prompt, nothing will happen.');"
+        },
+        {
+            "name": "Unknown Download",
+            "url": "javascript:alert('This is a test prompt, nothing will happen.');"
+        }
+    ]
+}]
