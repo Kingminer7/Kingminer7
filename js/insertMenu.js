@@ -3,7 +3,6 @@ document.body.innerHTML =
   "            <ul>\n" +
   '                <li><a href="' + window.location.origin + '">Home</a></li>\n' +
   '                <li><a href="' + window.location.origin + '/projects">Projects</a></li>\n' +
-  '                <li><a href="' + window.location.origin + '/about">About</a></li>\n' +
   "            </ul>\n" +
   "        </div>\n" +
   '        <div class="menu-toggle" id="menuToggle">\n' +
