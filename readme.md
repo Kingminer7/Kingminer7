@@ -1,4 +1,4 @@
-# Kingminer7
+# km7 dev
 I code random projects that I usually don't finish.
 I code for fun, learned mostly from YouTube guides and reverse engineering.
 
