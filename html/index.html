@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>km7dev</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script>
+      // Dynamically generate the CSS URL based on the current URL
+      var baseHref = window.location.origin;
+      var cssUrl = baseHref + "/css/km7.css";
+  
+      // Create a <link> element and set the href attribute to the CSS URL
+      var cssLink = document.createElement("link");
+      cssLink.rel = "stylesheet";
+      cssLink.type = "text/css";
+      cssLink.href = cssUrl;
+  
+      // Append the <link> element to the <head> section
+      document.head.appendChild(cssLink);
+    </script>
+  </head>
+  <body>
+    <script src="js/insertMenu.js"></script>
+    <h1 class="center">km7dev</h1>
+  </body>
+</html>

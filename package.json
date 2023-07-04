@@ -1,0 +1,25 @@
+{
+  "name": "km7dev.codes",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingminer7/kingminer7.git#site"
+  },
+  "author": "km7dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingminer7/kingminer7/issues"
+  },
+  "homepage": "https://github.com/kingminer7/kingminer7/tree/site#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "serve-index": "^1.9.1"
+  }
+}
