@@ -13,7 +13,7 @@ app.use('/css', serveIndex(__dirname + '/static/css'));
 app.use('/js', serveIndex(__dirname + '/static/js'));
 app.use('/', express.static(__dirname + '/static/'));
 
-app.use('/form', require())
+app.use('/form', require("./routes/form.js"));
 
 app.get('/*', (req, res) => {
     res.sendFile(__dirname + '/html/404.html');
