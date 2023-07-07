@@ -23,7 +23,20 @@
     </script>
   </head>
   <body>
-    <script src="js/insertMenu.js"></script>
+    <script>
+      var baseHref = window.location.origin;
+      var jsUrl = baseHref + "/js/insertMenu.js";
+
+      // Create a <link> element and set the href attribute to the CSS URL
+      var jsLink = document.createElement("script");
+      jsLink.type =  "text/javascript";
+      jsLink.src = jsUrl;
+
+      document.body.appendChild(jsLink);
+
+      // Append the <link> element to the <head> section
+      document.head.appendChild(cssLink);
+  </script>
     <h1 class="center">km7dev</h1>
   </body>
 </html>
